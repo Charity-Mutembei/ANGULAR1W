@@ -1,0 +1,10 @@
+<div>
+  <h1>William Oditi</h1>
+  <hr>
+  <ul>
+    <li *ngFor="let list of lists">
+     {{list.id}} {{list.name}}
+    </li>
+  </ul>
+  <p *ngIf="lists.length > 5">Your goals are too much</p>
+</div>
